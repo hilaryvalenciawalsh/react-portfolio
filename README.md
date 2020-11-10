@@ -23,14 +23,14 @@ If you are opting out of career services, this is *still a required assignment*.
 - [Description](#description)
 - [Table of Contents](#table-of-contents)
 - [Screenshots](#screenshots)
-- [License](#license)
 - [Questions](#questions)
 
 ## Screenshots
-<img src="screenshot.png" alt="react-portfolio"/>
+<img src="1.png" alt="react-portfolio"/>
+<img src="2.png" alt="react-portfolio"/>
+<img src="3.png" alt="react-portfolio"/>
+<img src="4.png" alt="react-portfolio"/>
 
-## License
-This project is licensed under the ISC License
    
 ## Questions
 Please contact me using one of the following:
