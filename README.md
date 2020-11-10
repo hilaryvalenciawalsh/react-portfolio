@@ -16,7 +16,7 @@ If you are opting out of career services, this is *still a required assignment*.
 
 
 ## Deployed Link
-
+https://hilary-portfolio.herokuapp.com/about
 
 ## Table of Contents
 - [Title](#title)
