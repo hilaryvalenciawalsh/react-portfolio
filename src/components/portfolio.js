@@ -3,6 +3,8 @@ import mixr from  "../assets/images/mixr.png";
 import password from "../assets/images/password.png";
 import covid from "../assets/images/covid.png";
 import schedule from "../assets/images/schedule.png";
+import budget from "../assets/images/budget.png";
+import employee from "../assets/images/employee.png";
 class Portfolio extends Component {
 
     render () {
@@ -21,7 +23,7 @@ class Portfolio extends Component {
               alignItems: "center",
               margin: "0 auto",
               display: "inline-block",
-              paddingLeft: "300px",
+              paddingLeft: "8px",
               paddingBottom: "30px"
             }}
           ></img></a>
@@ -38,7 +40,7 @@ class Portfolio extends Component {
               alignItems: "center",
               margin: "0 auto",
               display: "inline-block",
-              paddingLeft: "300px",
+              paddingLeft: "8px",
               paddingBottom: "30px"
             }}
           ></img></a>
@@ -55,7 +57,7 @@ class Portfolio extends Component {
               alignItems: "center",
               margin: "0 auto",
               display: "inline-block",
-              paddingLeft: "300px",
+              paddingLeft: "8px",
               paddingBottom: "30px"
             }}
           ></img></a>
@@ -72,7 +74,41 @@ class Portfolio extends Component {
               alignItems: "center",
               margin: "0 auto",
               display: "inline-block",
-              paddingLeft: "300px",
+              paddingLeft: "8px",
+              paddingBottom: "30px"
+            }}
+          ></img></a>
+
+<a href="https://github.com/hilaryvalenciawalsh/budget-tracker">
+          <img src={budget}
+            width="400"
+            height="300"
+            alt="mixr"
+            style={{
+              textAlign: "center",
+              display: "block",
+              justifyContent: "center",
+              alignItems: "center",
+              margin: "0 auto",
+              display: "inline-block",
+              paddingLeft: "8px",
+              paddingBottom: "30px"
+            }}
+          ></img></a>
+
+<a href="https://github.com/hilaryvalenciawalsh/employee-directory">
+          <img src={employee}
+            width="400"
+            height="300"
+            alt="mixr"
+            style={{
+              textAlign: "center",
+              display: "block",
+              justifyContent: "center",
+              alignItems: "center",
+              margin: "0 auto",
+              display: "inline-block",
+              paddingLeft: "8px",
               paddingBottom: "30px"
             }}
           ></img></a>
