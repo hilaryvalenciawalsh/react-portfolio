@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
+import { Layout, Navigation, Drawer, Content } from "react-mdl";
+import Wrapper from "./components/styled/Wrapper";
+import Router from "./components/router";
+import logo from "./assets/images/hvw-logo.png";
+import { Link } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <Wrapper>
+        <Layout fixedDrawer>
+          <Drawer style={{ paddingTop: "50px", backgroundColor: "#efefef" }} title="">
+            <img
+              src={logo}
+              width="200"
+              height="175"
+              alt="logo"
+              style={{ margin: "0 auto" }}
+            />
+            <Navigation>
+              
+              <Link to="/about">ABOUT ME / RESUME</Link>
+              <Link to="/portfolio">PORTFOLIO</Link>
+              <Link to="/contact" id="hello">
+                CONTACT ME
+              </Link>
+            </Navigation>
+          </Drawer>
+          <Content>
+            <Router />
+          </Content>
+        </Layout>
+      </Wrapper>
+    );
+  }
 }
 
 export default App;
